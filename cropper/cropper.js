@@ -6,8 +6,8 @@ Page({
     src:'',
     width: 250,//宽度
     height: 300,//高度
-    max_width: 400||wx.getSystemInfoSync().windowWidth,
-    max_height: 400||wx.getSystemInfoSync().windowHeight,
+    max_width: 400,
+    max_height: 400,
     disable_rotate:true,//是否禁用旋转
     disable_ratio: false,//锁定比例
     limit_move: true,//是否限制移动
